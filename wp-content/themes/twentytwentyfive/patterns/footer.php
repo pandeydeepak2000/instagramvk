@@ -4,102 +4,79 @@
  * Slug: twentytwentyfive/footer
  * Categories: footer
  * Block Types: core/template-part/footer
- * Description: TopBlogTech Premium Multi-Column Footer with Newsletter and Brand Links.
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * Description: InstagramVK Luxury Creator Footer
  */
-
+$logo_url = home_url( '/wp-content/uploads/igvk-nav-logo.jpg' );
 $home_url = home_url( '/' );
-$logo_url = home_url( '/wp-content/uploads/topblogtech-nav-logo.png' );
 ?>
 <!-- wp:html -->
-<footer class="tbt-footer">
-	<!-- Newsletter Section -->
-	<div class="tbt-footer-newsletter-wrap">
-		<div class="tbt-footer-newsletter-box">
-			<div class="tbt-newsletter-text">
-				<span class="tbt-newsletter-badge">🚀 WEEKLY CREATOR DISPATCH</span>
-				<h3 class="tbt-newsletter-title" style="color: #ffffff !important;">Build, Scale &amp; Monetize Your Digital Media Empire</h3>
-				<p class="tbt-newsletter-desc" style="color: #cbd5e1 !important;">Join 10,000+ ambitious creators getting weekly high-CPC blogging playbooks, YouTube algorithm updates, and realistic online income blueprints.</p>
-			</div>
-			<div class="tbt-newsletter-form">
-				<form action="#" method="post" onsubmit="event.preventDefault(); alert('Thank you for subscribing to TopBlogTech!');" class="tbt-form-inline">
-					<input type="email" placeholder="Enter your best email..." required class="tbt-input-email" />
-					<button type="submit" class="tbt-btn-subscribe">Subscribe Free →</button>
-				</form>
-				<p class="tbt-form-subtext" style="color: #94a3b8 !important;">🔒 Zero spam. Unsubscribe at any time with a single click.</p>
-			</div>
-		</div>
-	</div>
-
-	<!-- Main Footer Columns -->
-	<div class="tbt-footer-main">
-		<div class="tbt-footer-grid">
-			<!-- Col 1: Brand -->
-			<div class="tbt-footer-col tbt-footer-col-brand">
-				<a href="<?php echo esc_url( $home_url ); ?>" class="tbt-footer-logo-link">
-					<img src="<?php echo esc_url( $logo_url ); ?>" alt="TopBlogTech.com Logo" class="tbt-footer-logo" />
-				</a>
-				<p class="tbt-footer-tagline"><strong>TopBlogTech.com</strong> is your trusted roadmap to digital freedom. We publish battle-tested blueprints on tech blogging, video algorithms, AdSense optimization, and modern digital wealth.</p>
-				<div class="tbt-status-pill">
-					<span class="tbt-status-dot"></span>
-					<span>Updated for 2024–2026 Season</span>
+<footer class="igvk-footer">
+	<div class="igvk-footer-inner">
+		<div class="igvk-footer-grid">
+			<!-- Col 1: Brand Info -->
+			<div class="igvk-footer-col igvk-footer-about">
+				<div class="igvk-brand">
+					<a href="<?php echo esc_url( $home_url ); ?>" class="igvk-logo-link">
+						<img src="<?php echo esc_url( $logo_url ); ?>" alt="InstagramVK" class="igvk-logo-img" />
+						<div class="igvk-brand-text">
+							<span class="igvk-brand-title">Instagram<span class="igvk-gradient-text">VK</span></span>
+							<span class="igvk-brand-sub">CREATOR GROWTH LAB</span>
+						</div>
+					</a>
+				</div>
+				<p class="igvk-footer-desc">
+					InstagramVK is the definitive intelligence platform for ambitious creators, influencers, and digital brands scaling organic audience reach, cracking the Reels algorithm, and generating six-figure online income.
+				</p>
+				<div class="igvk-social-links">
+					<a href="https://instagram.com" target="_blank" rel="noopener" class="igvk-social-icon" title="Instagram">📸</a>
+					<a href="https://youtube.com" target="_blank" rel="noopener" class="igvk-social-icon" title="YouTube">▶️</a>
+					<a href="https://threads.net" target="_blank" rel="noopener" class="igvk-social-icon" title="Threads">🧵</a>
 				</div>
 			</div>
 
-			<!-- Col 2: Core Niches -->
-			<div class="tbt-footer-col">
-				<h4 class="tbt-footer-heading">Pillar Niches</h4>
-				<ul class="tbt-footer-links">
-					<li><a href="<?php echo esc_url( $home_url . 'category/blogging/' ); ?>">Blogging Mastery</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'category/online-money/' ); ?>">Online Money Models</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'category/youtube-growth/' ); ?>">YouTube Algorithm</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'category/google-adsense/' ); ?>">Google AdSense</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'category/passive-income/' ); ?>">Passive Income Assets</a></li>
+			<!-- Col 2: Creator Growth Pillars -->
+			<div class="igvk-footer-col">
+				<h4 class="igvk-footer-heading">Creator Pillars</h4>
+				<ul class="igvk-footer-links">
+					<li><a href="<?php echo esc_url( $home_url . 'category/reels-growth/' ); ?>">Viral Reels Engineering</a></li>
+					<li><a href="<?php echo esc_url( $home_url . 'category/creator-monetization/' ); ?>">Sponsorships &amp; Brand Deals</a></li>
+					<li><a href="<?php echo esc_url( $home_url . 'category/instagram-growth/' ); ?>">Algorithm Ranking Signals</a></li>
+					<li><a href="<?php echo esc_url( $home_url . 'category/creator-monetization/' ); ?>">Digital Product Funnels</a></li>
+					<li><a href="<?php echo esc_url( $home_url . 'category/instagram-growth/' ); ?>">Broadcast Channels Scaling</a></li>
 				</ul>
 			</div>
 
-			<!-- Col 3: Popular Guides -->
-			<div class="tbt-footer-col">
-				<h4 class="tbt-footer-heading">Cornerstone Guides</h4>
-				<ul class="tbt-footer-links">
-					<li><a href="<?php echo esc_url( $home_url . 'how-to-start-a-tech-finance-blog-2024/' ); ?>">Start a Tech Blog in 2024</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'top-5-realistic-ways-to-earn-money-online/' ); ?>">Top 5 Ways to Earn Online</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'youtube-algorithm-secrets-to-get-more-views/' ); ?>">YouTube Algorithm Secrets</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'getting-google-adsense-approval-fast/' ); ?>">Fast AdSense Approval Checklist</a></li>
-				</ul>
-			</div>
-
-			<!-- Col 4: Platform & Trust -->
-			<div class="tbt-footer-col">
-				<h4 class="tbt-footer-heading">Editorial &amp; Legal</h4>
-				<ul class="tbt-footer-links">
-					<li><a href="<?php echo esc_url( $home_url . 'about-us/' ); ?>">About TopBlogTech</a></li>
+			<!-- Col 3: Company & Trust -->
+			<div class="igvk-footer-col">
+				<h4 class="igvk-footer-heading">Resources &amp; Trust</h4>
+				<ul class="igvk-footer-links">
+					<li><a href="<?php echo esc_url( $home_url . 'about-us/' ); ?>">About InstagramVK</a></li>
+					<li><a href="<?php echo esc_url( $home_url . 'contact-us/' ); ?>">Contact &amp; Press</a></li>
 					<li><a href="<?php echo esc_url( $home_url . 'privacy-policy/' ); ?>">Privacy Policy</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'affiliate-disclosure/' ); ?>">Affiliate Disclosure</a></li>
 					<li><a href="<?php echo esc_url( $home_url . 'terms-of-service/' ); ?>">Terms of Service</a></li>
-					<li><a href="<?php echo esc_url( $home_url . 'contact-us/' ); ?>">Contact Editorial Team</a></li>
+					<li><a href="<?php echo esc_url( $home_url . 'disclaimer/' ); ?>">Earnings Disclaimer</a></li>
 				</ul>
+			</div>
+
+			<!-- Col 4: Newsletter -->
+			<div class="igvk-footer-col igvk-footer-newsletter">
+				<h4 class="igvk-footer-heading">Weekly Creator Drop</h4>
+				<p class="igvk-newsletter-desc">Get the weekly breakdown of silent algorithm changes, trending audio signals, and viral monetization case studies.</p>
+				<form class="igvk-newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed to InstagramVK Creator Drop!');">
+					<input type="email" placeholder="Your creator email..." required class="igvk-newsletter-input" />
+					<button type="submit" class="igvk-newsletter-btn">Join 25K+ Creators</button>
+				</form>
+				<span class="igvk-ssl-badge">🔒 100% Free • No Spam • Instant Unsubscribe</span>
 			</div>
 		</div>
 
-		<!-- Footer Bottom Copyright -->
-		<div class="tbt-footer-bottom">
-			<div class="tbt-footer-bottom-inner">
-				<p class="tbt-copyright">© <?php echo date( 'Y' ); ?> <strong>TopBlogTech.com</strong>. All rights reserved. Designed for ambitious creators.</p>
-				<div class="tbt-footer-bottom-links">
-					<a href="<?php echo esc_url( $home_url ); ?>">Home</a>
-					<span>•</span>
-					<a href="<?php echo esc_url( $home_url . 'about-us/' ); ?>">About</a>
-					<span>•</span>
-					<a href="<?php echo esc_url( $home_url . 'privacy-policy/' ); ?>">Privacy</a>
-					<span>•</span>
-					<a href="<?php echo esc_url( $home_url . 'affiliate-disclosure/' ); ?>">Disclosure</a>
-					<span>•</span>
-					<a href="<?php echo esc_url( $home_url . 'contact-us/' ); ?>">Contact</a>
-				</div>
+		<!-- Footer Bottom -->
+		<div class="igvk-footer-bottom">
+			<p>&copy; <?php echo date( 'Y' ); ?> InstagramVK.com. All rights reserved. Built for modern digital creators.</p>
+			<div class="igvk-trust-tags">
+				<span>⚡ Verified Creator Strategies</span>
+				<span>🛡️ DMCA Protected</span>
+				<span>✨ 256-Bit SSL Encrypted</span>
 			</div>
 		</div>
 	</div>

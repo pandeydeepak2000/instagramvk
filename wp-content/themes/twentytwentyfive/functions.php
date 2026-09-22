@@ -305,3 +305,8 @@ function tbt_inject_google_analytics() {
 }
 add_action( 'wp_head', 'tbt_inject_google_analytics', 2 );
 
+
+function igvk_enqueue_assets() {
+    wp_enqueue_style( 'igvk-premium', get_template_directory_uri() . '/assets/css/igvk-premium.css', [], '1.0.0' );
+}
+add_action( 'wp_enqueue_scripts', 'igvk_enqueue_assets', 99 );

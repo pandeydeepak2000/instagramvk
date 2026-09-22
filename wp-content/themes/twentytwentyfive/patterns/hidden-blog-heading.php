@@ -2,45 +2,40 @@
 /**
  * Title: Hidden blog heading
  * Slug: twentytwentyfive/hidden-blog-heading
- * Description: Hero banner for TopBlogTech - Cool Light Tech Edition.
+ * Description: InstagramVK Viral Creator Hero Banner
  * Inserter: no
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
  */
-
 $home_url = home_url( '/' );
 ?>
 <!-- wp:html -->
-<section class="tbt-hero-cool">
-	<div class="tbt-hero-glow"></div>
-	<div class="tbt-hero-content">
-		<div class="tbt-hero-badge">
-			<span class="tbt-badge-icon">⚡</span>
-			<span>LEARN • GROW • EARN</span>
+<section class="igvk-hero-section">
+	<div class="igvk-hero-glow"></div>
+	<div class="igvk-hero-content">
+		<div class="igvk-hero-badge">
+			<span class="igvk-badge-icon">🔥</span>
+			<span>ALGORITHM • REACH • REVENUE</span>
 		</div>
-		<h1 class="tbt-hero-title">
-			Master Tech, Blogging &amp; <span class="tbt-text-gradient">Modern Digital Wealth</span>
+		<h1 class="igvk-hero-title">
+			Crack the Instagram Algorithm &amp; <span class="igvk-gradient-text">Build an Unstoppable Brand</span>
 		</h1>
-		<p class="tbt-hero-subtitle">
-			High-authority SEO blueprints, YouTube algorithms, Google AdSense optimization, and realistic online income strategies for modern creators and entrepreneurs.
+		<p class="igvk-hero-subtitle">
+			The tactical intelligence hub for creators and digital brands: Master viral Reels retention, scale high-ticket brand sponsorships, and automate 6-figure follower-to-buyer funnels.
 		</p>
-		<div class="tbt-hero-tags">
-			<a href="<?php echo esc_url( $home_url . 'category/blogging/' ); ?>" class="tbt-pill">#Blogging 2024</a>
-			<a href="<?php echo esc_url( $home_url . 'category/online-money/' ); ?>" class="tbt-pill">#MakeMoneyOnline</a>
-			<a href="<?php echo esc_url( $home_url . 'category/youtube-growth/' ); ?>" class="tbt-pill">#YouTubeGrowth</a>
-			<a href="<?php echo esc_url( $home_url . 'category/google-adsense/' ); ?>" class="tbt-pill">#AdSenseMastery</a>
-			<a href="<?php echo esc_url( $home_url . 'category/passive-income/' ); ?>" class="tbt-pill">#PassiveIncome</a>
+		<div class="igvk-hero-tags">
+			<a href="<?php echo esc_url( $home_url . 'category/reels-growth/' ); ?>" class="igvk-pill">#ViralReels</a>
+			<a href="<?php echo esc_url( $home_url . 'category/instagram-growth/' ); ?>" class="igvk-pill">#AlgorithmHacks</a>
+			<a href="<?php echo esc_url( $home_url . 'category/creator-monetization/' ); ?>" class="igvk-pill">#CreatorEconomy</a>
+			<a href="<?php echo esc_url( $home_url . 'category/creator-monetization/' ); ?>" class="igvk-pill">#BrandSponsorships</a>
+			<a href="<?php echo esc_url( $home_url . 'category/reels-growth/' ); ?>" class="igvk-pill">#AudienceScaling</a>
 		</div>
 	</div>
 </section>
 
-<div class="tbt-section-header">
-	<div class="tbt-section-title-wrap">
-		<span class="tbt-section-bar"></span>
-		<h2 class="tbt-section-title">Latest Strategic Guides</h2>
-		<span class="tbt-badge-count"><?php echo (int) wp_count_posts()->publish; ?> Guides</span>
+<div class="igvk-section-header">
+	<div class="igvk-section-title-wrap">
+		<span class="igvk-section-bar"></span>
+		<h2 class="igvk-section-title">Trending Creator Playbooks</h2>
+		<span class="igvk-badge-count"><?php echo (int) wp_count_posts()->publish; ?> Blueprints</span>
 	</div>
 </div>
 <!-- /wp:html -->
